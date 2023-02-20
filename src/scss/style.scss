@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Crubolt";
+    src: url(../assets/fonts/cru-visarut-new-Bold.ttf) format("truetype"); 
+}
+
+.button {
+    font-family: Crubolt;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    
+}    
+    
+    
+
+.Pillen-button {
+    background-color: hsl(0, 0%, 23%);
+    border: none;
+    color: white;
+    border-radius: 1em/50%;
+}
+
+.Pillen-button:hover{
+    background-color: hsl(0, 1%, 50%);
+
+}
+
+
+
+
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #232222;
+    
+    
+    .banner{
+        position: relative;
+        background-image: url(../assets/pics/banner-hd.png);
+        height: 500px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+   
+
+    .container{
+        color: #ffffff;
+        font-size: 28pt;
+        font-family: Crubolt;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .button-kontakt{
+        min-height: 10vh;
+        width: 8%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+         }
+
+}
+
+body .page {
+    position: relative;
+    z-index: 3;
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body .page #timer {
+    margin: 6rem 0 0 0;
+    font-size: 6rem;
+    font-weight: 300;
+    color: #f7d13a;
+}
+
+body .page #timer span {
+    margin: 0 4rem 0 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+body .page #timer span i {
+    font-family: Crubolt;
+    font-style: bolt;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+
+
+
